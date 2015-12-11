@@ -84,7 +84,7 @@ p {
   position: fixed;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
-  background-color: #3da023; /* Default intense green color of menu */
+  background-color: #0066cc; /* Default intense green color of menu */
   top: 0;
   z-index: 1000;
   left: 0;
@@ -119,7 +119,7 @@ p {
 }
 
 #hybridmenu ul li:hover a {
-  background-color: #6fc15a; /* Hover color of menu */
+  background-color: #0033cc; /* Hover color of menu */
 }
 
 #hybridmenu ul li:after {
@@ -158,7 +158,7 @@ p {
 }
 
 #hybridmenu ul.sub-menu {
-  background-color: #3da023; /* Default intense green color of menu */
+  background-color: #0066cc; /* Default intense green color of menu */
   position: absolute;
   width: 250px;  
   display: none;
@@ -188,7 +188,7 @@ p {
 }
 
 #hybridmenu ul.sub-menu li:hover a {
-  background-color: #6fc15a;  /* Hover color of menu */
+  background-color: #0033cc;  /* Hover color of menu */
 }
 
 #hybridmenu ul li.mobile-menu-item i {
@@ -214,12 +214,12 @@ p {
 }
 
 #mobile-menu ul li {
-  background-color: #3da023; /* Default intense green color of menu */
+  background-color: #0066cc; /* Default intense green color of menu */
   border-top: 1px solid #eee; 
 }
 
 #mobile-menu ul li:hover {
-  background-color: #6fc15a; /* Hover color of menu */
+  background-color: #0033cc; /* Hover color of menu */
   border-top: 1px solid #eee;
 }
 
@@ -264,7 +264,7 @@ nav#hybridmenu.mobile-opened ul {
 
 .mobile-heading,
 #mobile-menu ul.sub-menu {
-  background-color: #3da023; /* Default intense green color of menu */
+  background-color: #0066cc; /* Default intense green color of menu */
 }
 
 #mobile-menu ul.sub-menu {

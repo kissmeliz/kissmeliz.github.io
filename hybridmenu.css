@@ -60,6 +60,8 @@ q:before, q:after {
   position: relative;
   background-color: white;
   left: 0;
+  
+  text-align: center;
 }
 
 

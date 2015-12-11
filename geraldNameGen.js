@@ -1,6 +1,6 @@
 
-var namePart1 = ["good", "sugar", "crazy", "silly"];
-var namePart2 = ["love", "liz", "tyler", "monkey", "goose", "ape"];
+var namePart1 = ["good", "sugar", "crazy", "silly", "cutie", "baby"];
+var namePart2 = ["love", "liz", "tyler", "monkey", "goose", "ape", "pie", "girl"];
 
 var name1 = "blank";
 var name2 = "blank";

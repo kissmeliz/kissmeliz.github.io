@@ -10,6 +10,22 @@ div#cuteNameGen
 	box-shadow: 1px 1px 50px #888888;
 }
 
+h1#nameButton
+{
+	
+	display: inline;
+	background-color: grey;
+	padding: 45px;
+	
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	
+}
+
 div#offensiveNameGen
 {
 	text-align: center;

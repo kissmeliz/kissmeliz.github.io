@@ -5,30 +5,19 @@ var clues = ["This is the first clue", "This is the second clue", "This is the t
 function displayClue(elementID, code)
 {
 	
-	if(code != null || code != " " || code != "")
+	for(i = 0; i < codes.length; i++)
 	{
 	
-		for(i = 0; i < codes.length; i++)
+		if(code == codes[i])
 		{
 		
-			if(code == code[i])
-			{
-			
-				document.getElementById(elementID).innerHTML = clues[i];
-				break;
-			
-			}
+			document.getElementById(elementID).innerHTML = clues[i];
+			return 0;
 		
 		}
-		
-	}
-	else
-	{
-		
-		document.getElementById(elementID).innerHTML = clues[0];
-		
+	
 	}
 	
-	document.getElementById(elementID).innerHTML = "Code is wrong, or you have typed it in wrong! Please contact developer.";
+	document.getElementById(elementID).innerHTML = "Code is wrong, or you have typed it in wrong! Please contact the sexy developer.";
 	
 }

@@ -1,0 +1,45 @@
+<html>
+
+	<head>
+		
+		<title> Name generator </title>
+		
+		<meta name="viewport" content="width=device-width">
+	
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
+		<script src = "../../js/GeraldNameGen.js"> </script>
+	
+		<script>
+			
+			function displayMenu()
+			{
+			
+				$(this).toggleClass("open");
+				$("#menu").toggleClass("opened");
+			
+			}
+
+		</script>
+	
+		<link rel="stylesheet" type="text/css" href="../../css/hamburgerStyle.css">
+		<link rel="stylesheet" type="text/css" href="../../css/mobileNav.css">
+	
+	</head>
+	
+	<body>
+	
+		<div id="toggle" onclick = "displayMenu()"><span></span></div>
+	
+		<div id="menu"><span id="title"></span>
+			<ul>
+				<li><a href="../../index.html"><span>Go Home</span></a></li>
+				<li><a href="../memorys/memorys.html"><span>Memorys</span></a></li>
+				<li><a href="../storyTime/storyTime.html"><span>Story Time With Gerald</span></a></li>
+				<li style = "background-color: #005b99;"><a href="#"><span>Name Generator</span></a></li>
+				<li><a href="../storyTimeIdeas/storyTimeIdeas.html"><span>Story Time Ideas </span></a></li>
+			</ul>
+		</div>
+	
+	</body>
+
+</html>

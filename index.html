@@ -2,25 +2,19 @@
 
 	<head>
 	
-		<meta name="viewport" content="width=device-width">
+		<title> Home </title>
 	
-		<title> third times the charm </title>
+		<meta name="viewport" content="width=device-width">
 	
 		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
 	
 		<script>
-		
-			$("#toggle").click(function() {
-			  $(this).toggleClass("open");
-			  $("#menu").toggleClass("opened");
-			  
-			});
 			
-			function writesomthing()
+			function displayMenu()
 			{
 			
 				$(this).toggleClass("open");
-			  $("#menu").toggleClass("opened");
+				$("#menu").toggleClass("opened");
 			
 			}
 
@@ -33,15 +27,15 @@
 	
 	<body>
 	
-		<div id="toggle" onclick = "writesomthing()"><span></span></div>
+		<div id="toggle" onclick = "displayMenu()"><span></span></div>
 	
 		<div id="menu"><span id="title"></span>
 			<ul>
-				<li><a href="#"><span>Go Home</span></a></li>
-				<li><a href="#"><span>Those days</span></a></li>
-				<li><a href="#"><span>Story Time With Gerald</span></a></li>
-				<li><a href="#"><span>Name Generator</span></a></li>
-				<li><a href="#"><span>Stroy Time Idea Generator</span></a></li>
+				<li style = "background-color: #005b99;"><a href="#"><span>Go Home</span></a></li>
+				<li><a href="subpages/memorys/memorys.html"><span>Memorys</span></a></li>
+				<li><a href="subpages/storyTime/storyTime.html"><span>Story Time With Gerald</span></a></li>
+				<li><a href="subpages/nameGen/nameGen.html"><span>Name Generator</span></a></li>
+				<li><a href="subpages/stroyTimeIdeas/storyTimeIdeas.html"><span>Story Time Ideas </span></a></li>
 			</ul>
 		</div>
 	

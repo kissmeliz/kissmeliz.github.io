@@ -2,8 +2,8 @@
 var cuteNamePart1 = ["good", "sugar", "crazy", "silly", "cutie", "baby"];
 var cuteNamePart2 = ["love", "liz", "tyler", "monkey", "goose", "ape", "pie", "girl"];
 
-var offensiveNamePart1 = ["dick"];
-var offensiveNamePart2 = ["weed"];
+var offensiveNamePart1 = ["dick", "fuck", "autistic"];
+var offensiveNamePart2 = ["weed", "fag", "tard"];
 
 var name1 = "-";
 var name2 = "-";

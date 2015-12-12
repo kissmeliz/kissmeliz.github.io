@@ -1,15 +1,3 @@
-div#cuteNameGen
-{
-	text-align: center;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 75px;
-	padding: 15px;
-	color: white;
-	background-color: #e60000;
-	box-shadow: 1px 1px 50px #888888;
-}
-
 h1#nameButton
 {
 	
@@ -26,6 +14,18 @@ h1#nameButton
     -ms-user-select: none;
     user-select: none;
 	
+}
+
+div#cuteNameGen
+{
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 75px;
+	padding: 15px;
+	color: white;
+	background-color: #e60000;
+	box-shadow: 1px 1px 50px #888888;
 }
 
 div#offensiveNameGen

@@ -15,7 +15,8 @@ h1#nameButton
 	
 	display: inline;
 	background-color: grey;
-	padding: 45px;
+	padding: 20px;
+	font-size: 1.15em;
 	
 	-webkit-touch-callout: none;
     -webkit-user-select: none;

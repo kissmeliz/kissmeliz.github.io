@@ -1,21 +1,42 @@
 
-var namePart1 = ["good", "sugar", "crazy", "silly", "cutie", "baby"];
-var namePart2 = ["love", "liz", "tyler", "monkey", "goose", "ape", "pie", "girl"];
+var cuteNamePart1 = ["good", "sugar", "crazy", "silly", "cutie", "baby"];
+var cuteNamePart2 = ["love", "liz", "tyler", "monkey", "goose", "ape", "pie", "girl"];
+
+var offensiveNamePart1 = ["dick"];
+var offensiveNamePart2 = ["weed"];
 
 var name1 = "-";
 var name2 = "-";
 
 
-function generateName(elementID)
+function generateName(elementID, isCute)
 {
 	
-	while(name2 == name1)
+	if(isCute == true)
 	{
-
-		var name1 = namePart1[Math.floor(Math.random() * namePart1.length)];
-
-		var name2 = namePart2[Math.floor(Math.random() * namePart2.length)];
 	
+		while(name2 == name1)
+		{
+
+			var name1 = cuteNamePart1[Math.floor(Math.random() * cuteNamePart1.length)];
+
+			var name2 = cuteNamePart2[Math.floor(Math.random() * cuteNamePart2.length)];
+	
+		}
+		
+	}
+	else
+	{
+	
+		while(name2 == name1)
+		{
+
+			var name1 = offensiveNamePart1[Math.floor(Math.random() * offensiveNamePart1.length)];
+
+			var name2 = offensiveNamePart2[Math.floor(Math.random() * offensiveNamePart2.length)];
+	
+		}
+		
 	}
 	
 	document.getElementById(elementID).innerHTML = name1 + " " + name2;	

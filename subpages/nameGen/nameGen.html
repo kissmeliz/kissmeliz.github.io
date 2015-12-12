@@ -13,7 +13,8 @@
 
 			$(function()
 			{
-				generateName('name');
+				generateName('cuteName', true);
+				generateName('offensiveName', false);
 			});
 		
 			function displayMenu()
@@ -42,11 +43,23 @@
 	
 		<div id="toggle" onclick = "displayMenu()"><span></span></div>
 	
-		<div id = "nameGenButton">
+		<div id = "cuteNameGen">
 	
-			<button type = "button" onclick = "generateName('name')"> Generate name </button>
+			<h1> Want it cute? </h1>
+	
+			<button type = "button" onclick = "generateName('cuteName', true)"> Generate name </button>
 			
-			<h1 id = "name" > </h1>
+			<h1 id = "cuteName" > </h1>
+	
+		</div>
+		
+		<div id = "offensiveNameGen">
+	
+			<h1> Want it offensive? </h1>
+	
+			<button type = "button" onclick = "generateName('offensiveName', false)"> Generate name </button>
+			
+			<h1 id = "offensiveName" > </h1>
 	
 		</div>
 	

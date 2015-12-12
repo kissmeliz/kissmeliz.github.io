@@ -1,8 +1,8 @@
 div#headBanner
 {
-	padding: 10px;
+	padding: 5px;
 	height: 65px;
-	width: 100%;
+	width: 99%;
 	color: white;
 	background-color: #e60000;
 	text-align: center;
@@ -10,11 +10,25 @@ div#headBanner
 	box-shadow: 1px 1px 50px #888888;
 }
 
-div#nameGenButton
+div#cuteNameGen
 {
 	text-align: center;
-	margin: 50px;
-	padding: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 75px;
+	padding: 15px;
+	color: white;
+	background-color: #e60000;
+	box-shadow: 1px 1px 50px #888888;
+}
+
+div#offensiveNameGen
+{
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 75px;
+	padding: 15px;
 	color: white;
 	background-color: #e60000;
 	box-shadow: 1px 1px 50px #888888;

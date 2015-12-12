@@ -1,0 +1,9 @@
+div#headBanner
+{
+	
+	height: 65px;
+	width: 100%;
+	color: white;
+	background-color: grey;
+	padding-left: 75px;
+}

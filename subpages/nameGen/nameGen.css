@@ -7,6 +7,7 @@ div#headBanner
 	background-color: #e60000;
 	text-align: center;
 	font-size: 0.75em;
+	box-shadow: 1px 1px 50px #888888;
 }
 
 div#nameGenButton
@@ -16,4 +17,5 @@ div#nameGenButton
 	padding: 25px;
 	color: white;
 	background-color: #e60000;
+	box-shadow: 1px 1px 50px #888888;
 }

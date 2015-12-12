@@ -8,7 +8,7 @@
   top: 0;
   left: 0;
   text-align: center;
-  background: rgba(44,62,80,0.9);
+  background: rgba(0,122,204,0.6); /* 44,62,80,0.9 */
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
   transform: scale(1.5);
@@ -55,7 +55,7 @@
   height: 65px;
   margin: -65px 0 0 5%;
   left: 0;
-  background: #8BC163;
+  /* background: orange; /* #8BC163 selector color */
   border-radius: 0.25em;
   -webkit-transition: 350ms ease all;
   -moz-transition: 350ms ease all;
@@ -72,9 +72,9 @@
   height: 65px;
   line-height: 65px;
   margin: 0 auto;
-  color: #8BC163;
+  color: white; /* #8BC163 text color */ 
   text-decoration: none;
-  border: 1px solid #ddd;
+  border: 1px solid white; /* #ddd border color*/
   border-radius: 0.2em;
   -webkit-transition: 350ms ease all;
   -moz-transition: 350ms ease all;
@@ -82,7 +82,7 @@
 }
 
 #menu ul li a:hover {
-  color: #eee;
+  color: #005b99; /* #eee hover text color */ 
   border-color: #8BC163;
 }
 

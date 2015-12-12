@@ -42,7 +42,7 @@
 #toggle.open span:before,
 #toggle.open span:after {
   margin: 0;
-  background: #8BC163;
+  background: #8BC163; /* #8BC163 */
 }
 
 #toggle.open span:before {

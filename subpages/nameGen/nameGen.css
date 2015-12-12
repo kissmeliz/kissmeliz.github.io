@@ -1,0 +1,19 @@
+div#headBanner
+{
+	padding: 10px;
+	height: 65px;
+	width: 100%;
+	color: white;
+	background-color: #e60000;
+	text-align: center;
+	font-size: 0.75em;
+}
+
+div#nameGenButton
+{
+	text-align: center;
+	margin: 100px;
+	padding: 25px;
+	color: white;
+	background-color: #e60000;
+}

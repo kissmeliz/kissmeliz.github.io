@@ -10,7 +10,12 @@
 		<script src = "../../js/GeraldNameGen.js"> </script>
 	
 		<script>
-			
+
+			$(function()
+			{
+				generateName('name');
+			});
+		
 			function displayMenu()
 			{
 			
@@ -21,6 +26,7 @@
 
 		</script>
 	
+		<link rel="stylesheet" type="text/css" href="nameGen.css">
 		<link rel="stylesheet" type="text/css" href="../../css/hamburgerStyle.css">
 		<link rel="stylesheet" type="text/css" href="../../css/mobileNav.css">
 	
@@ -28,7 +34,21 @@
 	
 	<body>
 	
+		<div id = "headBanner">
+		
+			<h1> Name Generator </h1>
+		
+		</div>		
+	
 		<div id="toggle" onclick = "displayMenu()"><span></span></div>
+	
+		<div id = "nameGenButton">
+	
+			<button type = "button" onclick = "generateName('name')"> Generate name </button>
+			
+			<h1 id = "name" > </h1>
+	
+		</div>
 	
 		<div id="menu"><span id="title"></span>
 			<ul>
@@ -39,6 +59,8 @@
 				<li><a href="../storyTimeIdeas/storyTimeIdeas.html"><span>Story Time Ideas </span></a></li>
 			</ul>
 		</div>
+	
+		<script src = "../../js/geraldNameGen.js"> </script>
 	
 	</body>
 

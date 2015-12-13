@@ -1,0 +1,76 @@
+<html>
+
+	<head>
+	
+		<title> Home </title>
+	
+		<meta name="viewport" content="width=device-width">
+	
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script> 
+	
+		<script>
+			
+			function displayMenu()
+			{
+			
+				$(this).toggleClass("open");
+				$("#menu").toggleClass("opened");
+			
+			}
+
+		</script>
+	
+		<link rel="stylesheet" type="text/css" href="css/pages/index.css">
+		<link rel="stylesheet" type="text/css" href="css/pageStyle.css">
+		<link rel="stylesheet" type="text/css" href="css/hamburgerStyle.css">
+		<link rel="stylesheet" type="text/css" href="css/mobileNav.css">
+		
+	</head>
+	
+	<body>
+	
+		<div id = "headBanner">
+		
+			<h1> Home page </h1>
+		
+		</div>
+		
+		<div id="toggle" onclick = "displayMenu()"><span></span></div>
+	
+		<br/>
+		<br/>
+	
+		<div id = "card">
+		
+			<p> Hi uh ummm welcome </p>
+			<p> Please explore. </p>
+			<p> I have lots of features, </p>
+			<p> storys to tell, </p>
+			<p> and hidden secrets, can you find them. </p>
+		
+		</div>
+		
+		<div id = "card">
+		
+			<p> But wait before you leave. </p>
+			<p> find the page with the hidden clues. </p>
+		
+		</div>
+	
+		<div id="menu"><span id="title"></span>
+			<ul>
+				<li id = "selected"><a href="#"><span>Go Home</span></a></li>
+				<li><a href="subpages/memorys/memorys.html"><span>Memorys</span></a></li>
+				<li><a href="subpages/storyTime/storyTime.html"><span>Story Time With Gerald</span></a></li>
+				<li><a href="subpages/nameGen/nameGen.html"><span>Name Generator</span></a></li>
+				<li><a href="subpages/storyTimeIdeas/storyTimeIdeas.html"><span>Story Time Ideas </span></a></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li><a href="subpages/secretPage/secretPage.html"><span> super secret page </span></a></li>
+			</ul>
+		</div>
+	
+	</body>
+
+</html>

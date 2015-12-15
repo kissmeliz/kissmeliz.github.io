@@ -10,3 +10,21 @@ div#card
 	background-color: #e60000;
 	box-shadow: 1px 1px 50px #888888;
 }
+
+a#hiddenLink:link
+{
+	
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	
+}
+
+a#hiddenLink:visited
+{
+	
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	
+}
